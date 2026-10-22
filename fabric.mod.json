@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "baldmark",
+  "version": "${version}",
+  "name": "BaldMark Client",
+  "description": "Purple Feather-style menu and PvP ClickGUI prototype for Minecraft Java 1.21.11 Fabric.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.baldmark.client.BaldMarkClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
